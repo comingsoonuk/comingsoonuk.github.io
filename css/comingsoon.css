@@ -1,8 +1,10 @@
 body{
-	background-image: url('http://www.resortsuite.com/new/wp-content/uploads/2017/06/clouds.jpg'); 
-	background-repeat: no-repeat;
-	background-color: #9a9a9a;
-    background-size: 100%;
+	background: url('http://www.resortsuite.com/new/wp-content/uploads/2017/06/clouds.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+    background-color: #9a9a9a;
 }
 
 h1 {
@@ -30,5 +32,6 @@ h2{
 
 .icons {
     color: #9a9a9a;
-    size: 200%;
+    
+
 }
